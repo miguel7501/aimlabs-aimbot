@@ -26,7 +26,7 @@ def get_window(window_name):
             game_hwnd = hwnd
             return GetWindowRect(game_hwnd)
 
-
+# Test
 
 def get_center_coordinates():
     image = np.array(ImageGrab.grab(bbox=get_window("_tb")))
